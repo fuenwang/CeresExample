@@ -1,3 +1,3 @@
 all:
-	g++ -O3 hello.cpp -lceres -lglog -fopenmp -lopenblas  -lcholmod
+	g++ -O3 hello.cpp -lceres -lglog -lcxsparse -lopenblas  -lcholmod -fopenmp -std=c++11
 	./a.out
